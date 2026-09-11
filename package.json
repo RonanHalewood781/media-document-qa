@@ -1,0 +1,7 @@
+{
+  "name": "media-document-qa",
+  "type": "module",
+  "scripts": {"start": "tsx src/example.ts", "test": "tsx test/media_qa.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"openai": "^4.80.0", "zod": "^3.24.1"},
+  "devDependencies": {"tsx": "^4.19.2", "typescript": "^5.7.2", "@types/node": "^22.10.5"}
+}
